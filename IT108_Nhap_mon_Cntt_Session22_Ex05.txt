@@ -1,0 +1,22 @@
+﻿Bài 5 : Tối ưu quy trình hỗ trợ kỹ thuật nội bộ 
+3. Yêu cầu đầu ra
+Thiết kế kiến trúc
+* Xây dựng một mẫu Bug Report Template dựa trên 4 mảnh ghép (Context, Expected, Actual, Log) để các thành viên bắt buộc phải điền trước khi hỏi.
+* Content: làm trên phần mềm nào, trên hệ điều hành gì
+* Expected: mong muốn làm được gì trên đó
+* Actual: khi chạy lệnh thì có gặp lỗi gì
+* Log: chụp lại toàn bộ lỗi 
+Sản phẩm hoàn chỉnh
+* Đề xuất một quy trình 3 bước tra cứu bắt buộc (Googling ➔ Community Search ➔ AI Translation) để thành viên tự xử lý 80% vấn đề trước khi nhờ hỗ trợ.
+* Googling: đặt các dòng lỗi dô “ ” để tra cứu đúng nguyên văn, thêm site: để phân vùng lại cái web mình muốn vô để tra cứu, thêm nội dung sau dấu - để loại rác, quảng cáo, phiên bản cũ,...
+
+
+* Community Search: xem trên stackoverflow.com hoặc GitHub Issues 
+* Đối với Stackoverflow: thì ưu tiên xem các bài đăng gần đây hoặc ko quá lâu, tìm các câu hỏi đã có tích xanh và các giải pháp có lượng Upvotes cao. Chú ý vào khung code block vì trong đó có các câu lệnh để sửa lỗi.
+* Đối với GitHub Issues: thì xem các bài đăng ở trạng thái OPEN và CLOSED. Xem các comment có phần workaround thì đó là phần sửa lỗi tạm thời, trong khi chờ đợi tác giả đưa ra bản vá lỗi chính thức.
+
+
+* AI Translation: prompt 3 phần 
+1. Ngữ cảnh: đang làm trên hệ điều hành, phần mềm nào
+2. Lỗi nguyên văn: Tôi chạy lệnh thì nó hiện lỗi “ ghi lỗi cụ thể”
+3. Hãy giải thích nguyên nhân bằng tiếng việt đơn giản và hãy cho tôi 3 bước để khắc phục.
